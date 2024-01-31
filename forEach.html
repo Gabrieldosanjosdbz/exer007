@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>método forEach</title>
+</head>
+<body>
+    <h1>método forEach()</h1>
+    <h2>O método chama uma função uma vez para cada elemento do array</h2>
+
+    <p id="teste"></p>
+
+    <h2>Observe o código a seguir...</h2>
+    <pre>
+        const numeros = [45, 4, 9, 16, 25];
+        let text = "";
+        numeros.forEach(value, index, array){
+            text += value * 2;
+        }
+    </pre>
+
+    <h2>Executando este código no console:<br>
+
+        <h3>
+            console.log(value) - values: 45, 4, 9, 16, 25;<br>
+            console.log(index) - índices: 0, 1, 2, 3, 4;<br>
+            console.log(array) - nome do array: numeros;<br>    
+        </h3>
+    </h2>
+
+    
+    <script src="./js/foreach.js"></script>
+    
+</body>
+</html>
